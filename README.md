@@ -16,7 +16,7 @@ The final output is an algorithm to solve the cube (and the number of steps).
 4. Run the cells of the cube_solving.ipynb file in order upto the section 'Main Inference'. They have requirements and helper functions.
 5. take images of each face of the cube such that the image in the below figure would look straight. 
 
-![Flat cube](/images/cube_flat.png)
+<img src = '/images/cube_flat.png' width =  '50%'>
 
 6. make a directory '/content/scramble/' and add the files in the format 'cube.png' (This format can be changed by changing the final inference function)
 7. run the final inference function to get the algorithms to solve the cube. The algorithm consists of a list of characters that follow this [convention](https://ruwix.com/the-rubiks-cube/notation/).
@@ -29,5 +29,4 @@ Below is a screenshot of the output obtained for one cube:
 ## Fun with Pycuber:
 Pycuber is a fun interactive environment that visualises a cube. I am planning to make a web app that uses this to make a user-friendly interactive cube solver.
 
-![pycuber1](/images/pycuber1.png)
-![pycuber2](/images/pycuber2.png)
+<img src = '/images/pycuber1.png' width =  '34%'>    <img src = '/images/pycuber2.png' width =  '63%'>
