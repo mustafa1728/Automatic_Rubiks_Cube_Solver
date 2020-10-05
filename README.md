@@ -2,7 +2,9 @@
 
 This project allows you to input images of the faces of a cube and prints out an algorithm to solve it.
 It uses Segmentation to detect the actual faces of the cube and then assumes a uniform 3*3 grid-like distribution to find the color of each piece.
+
 Current logic: Find closest color from a set of 6 predefined colors (Logic needs to be changed with different cubes). I am working on clustering algorithms to solve this issue.
+
 Once the colors are detected, it is converted into a format according to Kociemba Solver, and then solved by the Kociemba algorithm, which allows any configuration to be solved in less than 30 steps.
 The final output is an algorithm to solve the cube (and the number of steps).
 
@@ -10,7 +12,7 @@ The final output is an algorithm to solve the cube (and the number of steps).
 
 1. Clone the repository and open cube_solving.ipynb in [Google Colaboratory](https://colab.research.google.com). 
 2. The Google colab file has commands to install all the prerequisites and you simply need to run the cells to get the required. 
-3. Copy the weigths file from [here](https://drive.google.com/drive/folders/1unXQKfb-HFnMSqKj82VZ10dLmTdbfhrh?usp=sharing) into your google drive account and note the location. Follow instructions in the file to put the location (path) in a line of code.
+3. Copy the weights file from [here](https://drive.google.com/drive/folders/1unXQKfb-HFnMSqKj82VZ10dLmTdbfhrh?usp=sharing) into your google drive account and note the location. Follow instructions in the colab file to put the location (path) in a line of code.
 4. Run the cells of the cube_solving.ipynb file in order upto the section 'Main Inference'. They have requirements and helper functions.
 5. take images of each face of the cube such that the image in the below figure would look straight. 
 
