@@ -1,5 +1,8 @@
 # Automatic_Rubiks_Cube_Solver
 
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1YyI__JZdwIeeSkUspFp_6xCb1ja0HgsA#offline=true&sandboxMode=true)
+
+
 This project allows you to input images of the faces of a cube and prints out an algorithm to solve it.
 It uses Segmentation to detect the actual faces of the cube and then assumes a uniform 3*3 grid-like distribution to find the color of each piece.
 
